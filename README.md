@@ -32,5 +32,5 @@ To integrate Klaviyo's Checkstyle configuration into a maven build, add the foll
 - Install the checkstyle plugin from the plugin browser or from [github](https://github.com/jshiell/checkstyle-idea)
 - Once installed, open settings and navigate to `Other Settings` > `Checkstyle`
 - Check `Treat Checkstyle errors as warnings` so you can distinguish between actual java syntax errors and simple linting errors
-- Hit the plus button on the right side of the settings window to add a new configuration file and select file from HTTP
+- Hit the plus button on the right side of the settings window to add a new configuration file and select file from HTTP. Make sure you use the [raw content link](https://github.com/klaviyo/java-checkstyle/raw/master/checkstyle.xml), not the prettified HTML view link.
 ![](idea-settings.png)

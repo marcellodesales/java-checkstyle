@@ -13,7 +13,7 @@ To integrate Klaviyo's Checkstyle configuration into a maven build, add the foll
         <version>3.0.0</version>
         <configuration>
           <configLocation>
-            https://github.com/klaviyo/java-checkstyle/blob/master/checkstyle.xml
+            https://raw.githubusercontent.com/klaviyo/java-checkstyle/master/checkstyle.xml
           </configLocation>
         </configuration>
         <dependencies>
